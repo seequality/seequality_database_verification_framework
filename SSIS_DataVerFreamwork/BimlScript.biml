@@ -1,0 +1,90 @@
+       
+<Biml
+    xmlns="http://schemas.varigence.com/biml.xsd">
+
+                    <# 
+                      
+                      string ConnectionString =#> @[$Project::VerificationFreamworkDatabaseConnectionString] <#;
+                      // ??????????????
+                      List<String>
+                      tables = new List<String>
+                        ();
+
+                      using(SqlConnection connection = new SqlConnection(ConnectionString))
+                       {
+                          string query = @"
+
+                                    SELECT QUOTENAME(SCHEMA_NAME(sOBJ.schema_id)) AS SchemaName,
+                                    sOBJ.name AS [TableName],
+                                    SUM(sPTN.rows) AS [RowCount]
+                                    FROM sys.objects AS sOBJ
+                                    INNER JOIN sys.partitions AS sPTN
+                                    ON sOBJ.object_id = sPTN.object_id
+                                    WHERE sOBJ.type = 'U'
+                                    AND sOBJ.is_ms_shipped = 0x0
+                                    AND index_id < 2 -- 0:Heap, 1:Clustered
+                                    GROUP BY sOBJ.schema_id,
+                                    sOBJ.name
+                                    ORDER BY 3 DESC;
+                      
+                      
+                          ";
+                      
+                          using(SqlCommand command = new SqlCommand(query, connection))
+                          {
+                              connection.Open();
+                              using (SqlDataReader reader = command.ExecuteReader())
+                              {
+                                  while (reader.Read())
+                                  {
+                                      tables.Add(reader.GetString(1));
+                                  }         
+                              }
+                          }
+                      }  
+                   
+                   
+                 #>
+    
+  
+  <Connections>
+    <AdoNetConnection Name="QALoad" Provider="System.Data.SqlClient.SqlConnection, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ConnectionString="Data Source=localhost\sql2016;Initial Catalog=AdventureworksDW2016CTP3;Integrated Security=True;" />
+        
+      <#  foreach (string table in tables)  {  #>         
+    
+              <FileConnection Name="OutputFile<#=table#>" FileUsageType="CreateFile" FilePath="C:\test\ProfilerResults\<#=table#>.xml" />
+
+        <#  }  #>   
+          
+  </Connections>
+  <Packages>
+    <Package Name="CheckDataTypes_DIMS" ConstraintMode="Linear" ProtectionLevel="EncryptSensitiveWithUserKey">
+      <Tasks>
+        <Container Name="DIMS">
+          <Tasks>
+            
+                <#  foreach (string table in tables)  {  #>         
+           
+                        <DataProfiling Name="<#=table#>" OverwriteDestination="true">
+                          <FileOutput ConnectionName="OutputFile<#=table#>" />
+                          <ProfileRequests>
+                            <ColumnNullRatioProfileRequest Name="NullRatioReq" ConnectionName="QALoad" SchemaId="dbo" TableId="<#=table#>" />
+                            <ColumnStatisticsProfileRequest Name="StatisticsReq" ConnectionName="QALoad" SchemaId="dbo" TableId="<#=table#>" />
+                            <ColumnLengthDistributionProfileRequest Name="LengthDistReq" ConnectionName="QALoad" SchemaId="dbo" TableId="<#=table#>" />
+                            <ColumnValueDistributionProfileRequest Name="ValueDistReq" ConnectionName="QALoad" SchemaId="dbo" TableId="<#=table#>" />
+                            <ColumnPatternProfileRequest Name="PatternReq" ConnectionName="QALoad" SchemaId="dbo" TableId="<#=table#>" />
+                          </ProfileRequests>
+                        </DataProfiling>
+
+                  <#  } #>   
+                   
+          </Tasks>
+        </Container>
+      </Tasks>
+    </Package>
+  </Packages>
+</Biml>
+
+<#@ template language="C#" hostspecific="true"#>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
