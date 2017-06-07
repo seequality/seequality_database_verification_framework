@@ -1,4 +1,17 @@
 1. <2017-06-07>
 	- run the LoadData package
 	- update some tables to change the data diametrically
+
+			UPDATE dbo.DimCustomer 
+			SET BirthDate = DATEADD(YEAR,50,BirthDate)
+			WHERE CustomerKey % 2 = 0
+
+			UPDATE dbo.DimCustomer
+			SET YearlyIncome = YearlyIncome * 2
+			WHERE CustomerKey % 3 = 0
+
+			UPDATE dbo.DimEmployee
+			SET EmailAddress = NULL
+			WHERE EmployeeKey % 2 = 
+
 	- run the LoadData package again
