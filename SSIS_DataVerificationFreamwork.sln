@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Databa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherFiles", "OtherFiles", "{6AFB538F-8728-428A-A1DA-149EAA3DB449}"
 	ProjectSection(SolutionItems) = preProject
+		DataVerificationScripts.sql = DataVerificationScripts.sql
+		ExecutionVerificationScripts.sql = ExecutionVerificationScripts.sql
 		TruncateAllTables.sql = TruncateAllTables.sql
 	EndProjectSection
 EndProject
