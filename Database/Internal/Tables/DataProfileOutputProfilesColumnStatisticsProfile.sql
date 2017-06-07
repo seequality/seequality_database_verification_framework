@@ -7,6 +7,7 @@
     [MinValue]         VARCHAR (255)   NULL,
     [ProfileRequestID] VARCHAR (255)   NULL,
     [StdDev]           NUMERIC (18, 4) NULL,
-    [StdDevSpecified]  BIT             NULL
+    [StdDevSpecified]  BIT             NULL,
+	[ExecutionID] UNIQUEIDENTIFIER		NOT NULL
 );
 

@@ -83,8 +83,13 @@
     <Build Include="Internal\Tables\ColumnOutput.sql" />
     <Build Include="Internal\Tables\ColumnInput.sql" />
     <Build Include="Security\Internal.sql" />
+    <Build Include="Internal\Tables\ExecutionLog.sql" />
+    <Build Include="Internal\LogStartExecution.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database.refactorlog" />
   </ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
     [DataSourceID]           VARCHAR (255) NULL,
     [IsExact]                BIT           NULL,
     [NumberOfDistinctValues] INT           NULL,
-    [ProfileRequestID]       VARCHAR (255) NULL
+    [ProfileRequestID]       VARCHAR (255) NULL,
+	[ExecutionID] UNIQUEIDENTIFIER		NOT NULL
 );
 

@@ -5,6 +5,7 @@
     [IsExact]             BIT           NULL,
     [MaxLength]           INT           NULL,
     [MinLength]           INT           NULL,
-    [ProfileRequestID]    VARCHAR (255) NULL
+    [ProfileRequestID]    VARCHAR (255) NULL,
+	[ExecutionID] UNIQUEIDENTIFIER		NOT NULL
 );
 

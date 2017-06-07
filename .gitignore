@@ -1,2 +1,4 @@
 debug.log
 .suo
+*.publish.sql
+DeploymentReport*

@@ -4,6 +4,7 @@
     [ID]                            VARCHAR (255) NULL,
     [MaxNumberOfPatterns]           INT           NULL,
     [PercentageDataCoverageDesired] INT           NULL,
-    [Symbols]                       VARCHAR (255) NULL
+    [Symbols]                       VARCHAR (255) NULL,
+	[ExecutionID] UNIQUEIDENTIFIER		NOT NULL
 );
 

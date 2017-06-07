@@ -1,5 +1,6 @@
 ﻿CREATE TABLE [Internal].[DataProfileOutputProfilesColumnPatternProfileTopRegexPatterns] (
     [RegexText] VARCHAR (255) NULL,
-    [Frequency] INT           NULL
+    [Frequency] INT           NULL,
+	[ExecutionID] UNIQUEIDENTIFIER		NOT NULL
 );
 
