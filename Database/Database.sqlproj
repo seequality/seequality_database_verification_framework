@@ -23,6 +23,7 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <Recovery>SIMPLE</Recovery>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -57,5 +58,30 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Internal\" />
+    <Folder Include="Internal\Tables\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Internal\Tables\TableOutput.sql" />
+    <Build Include="Internal\Tables\DataProfileInputRequestsColumnLengthDistributionProfileRequest.sql" />
+    <Build Include="Internal\Tables\DataSource.sql" />
+    <Build Include="Internal\Tables\TableInput.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnValueDistributionProfileValueDistribution.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnValueDistributionProfile.sql" />
+    <Build Include="Internal\Tables\DataProfilerInput.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnNullRatioProfile.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnStatisticsProfile.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnPatternProfileTopRegexPatterns.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnLengthDistributionProfileLengthDistribution.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnPatternProfile.sql" />
+    <Build Include="Internal\Tables\DataProfileOutputProfilesColumnLengthDistributionProfile.sql" />
+    <Build Include="Internal\Tables\DataProfileInputRequestsColumnStatisticsProfileRequest.sql" />
+    <Build Include="Internal\Tables\DataProfileInputRequestsColumnPatternProfileRequest.sql" />
+    <Build Include="Internal\Tables\DataProfileInputRequestsColumnNullRatioProfileRequest.sql" />
+    <Build Include="Internal\Tables\ColumnValueDistributionProfileRequest.sql" />
+    <Build Include="Internal\Tables\ColumnOutput.sql" />
+    <Build Include="Internal\Tables\ColumnInput.sql" />
+    <Build Include="Security\Internal.sql" />
   </ItemGroup>
 </Project>
