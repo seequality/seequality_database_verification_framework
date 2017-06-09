@@ -1,9 +1,5 @@
 C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.dacpac
 C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.dll
 C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.pdb
-C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\Model.xml
-C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\refactor.xml
-C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\postdeploy.sql
-C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\predeploy.sql
 C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\Database.dll
 C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\Database.pdb
