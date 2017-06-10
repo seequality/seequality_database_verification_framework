@@ -58,7 +58,7 @@
           
   </Connections>
   <Packages>
-    <Package Name="CheckDataTypes_DIMS" ConstraintMode="Linear" ProtectionLevel="EncryptSensitiveWithUserKey">
+    <Package Name="CheckDataTypes" ConstraintMode="Linear" ProtectionLevel="EncryptSensitiveWithUserKey">
       <Tasks>
         <Container Name="DIMS">
           <Tasks>

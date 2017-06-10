@@ -5,13 +5,13 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="MT-LPT-0334"
   DTS:CreatorName="sldr01"
-  DTS:DTSID="{B23B1195-3768-457D-BAD0-E5F183F4E6DF}"
+  DTS:DTSID="{C7C64D30-E005-4601-AFF0-B69BA1892879}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="13.0.4001.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="CheckDataTypes_DIMScopy"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{4A4AA225-5E1C-4A09-8E75-6D6593D439ED}"
+  DTS:ObjectName="CheckDataTypes"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{391E42C5-6E46-4353-AB5B-DFFBC23135C5}"
   DTS:VersionMajor="0">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
@@ -409,7 +409,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="AdventureWorksDWBuildVersion"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="13">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -476,7 +476,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DatabaseLog"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="14">
+          DTS:ThreadHint="17">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -543,7 +543,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimAccount"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="15">
+          DTS:ThreadHint="18">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -610,7 +610,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimCurrency"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="16">
+          DTS:ThreadHint="13">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -677,7 +677,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimCustomer"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="17">
+          DTS:ThreadHint="14">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -744,7 +744,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimDate"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="18">
+          DTS:ThreadHint="15">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -811,7 +811,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimDepartmentGroup"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="19">
+          DTS:ThreadHint="16">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -878,7 +878,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimEmployee"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="20">
+          DTS:ThreadHint="23">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -945,7 +945,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimGeography"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="21">
+          DTS:ThreadHint="19">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1012,7 +1012,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimOrganization"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="22">
+          DTS:ThreadHint="20">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1079,7 +1079,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimProduct"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="23">
+          DTS:ThreadHint="22">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1146,7 +1146,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimProductCategory"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="12">
+          DTS:ThreadHint="21">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1548,7 +1548,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="DimScenario"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="5">
+          DTS:ThreadHint="12">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1615,7 +1615,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactAdditionalInternationalProductDescription"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="25">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1682,7 +1682,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactCallCenter"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="26">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1816,7 +1816,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactFinance"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="5">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1883,7 +1883,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactInternetSales"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="6">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -1950,7 +1950,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactInternetSalesReason"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="0">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2017,7 +2017,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactProductInventory"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="24">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2084,7 +2084,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactResellerSales"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="27">
+          DTS:ThreadHint="25">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2151,7 +2151,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactResellerSalesXL_CCI"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="28">
+          DTS:ThreadHint="26">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2218,7 +2218,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactResellerSalesXL_PageCompressed"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="29">
+          DTS:ThreadHint="27">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2352,7 +2352,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FactSurveyResponse"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="24">
+          DTS:ThreadHint="28">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2419,7 +2419,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="NewFactCurrencyRate"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="6">
+          DTS:ThreadHint="29">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2486,7 +2486,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="ProspectiveBuyer"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="31">
+          DTS:ThreadHint="32">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
@@ -2553,7 +2553,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="sysdiagrams"
           DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2014; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="32">
+          DTS:ThreadHint="31">
           <DTS:Variables />
           <DTS:ObjectData>
             <DataProfilingTaskData
