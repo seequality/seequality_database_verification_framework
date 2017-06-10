@@ -2,28 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIS_DataVerFreamwork</Name>
-    <LastWriteTime>2017-06-10T11:37:52.4641841Z</LastWriteTime>
+    <LastWriteTime>2017-06-10T19:58:02.1651196Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>Package.dtsx</Name>
-      <LastWriteTime>2017-05-27T20:30:50.0672926Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>CheckDataTypes_DIMScopy.dtsx</Name>
-      <LastWriteTime>2017-06-10T17:46:45.324709Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
       <Name>LoadData.dtsx</Name>
-      <LastWriteTime>2017-06-10T17:46:01.0449335Z</LastWriteTime>
+      <LastWriteTime>2017-06-10T21:12:08.7157978Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Master.dtsx</Name>
-      <LastWriteTime>2017-06-10T12:02:35.2610098Z</LastWriteTime>
+      <LastWriteTime>2017-06-10T19:50:27.1080167Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>CheckDataTypes.dtsx</Name>
+      <LastWriteTime>2017-06-10T19:50:13.6364163Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
