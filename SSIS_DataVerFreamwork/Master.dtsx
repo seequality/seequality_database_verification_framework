@@ -11,20 +11,20 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{A56AF48B-0DB7-4C67-B72D-D580580C00BD}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{792EB40A-017C-4549-8C61-94FB3F9740B4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Execute Package Task"
+      DTS:refId="Package\EPT__CREATE_PROFILES"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Execute Package Task"
       DTS:DTSID="{A28F371B-A65E-4442-96D0-FB5217415D5C}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute Package Task"
+      DTS:ObjectName="EPT__CREATE_PROFILES"
       DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -35,13 +35,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Execute Package Task 1"
+      DTS:refId="Package\EPT__READ_PROFILES_FILES"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Execute Package Task"
       DTS:DTSID="{297CC045-8B1E-4783-BE30-889C02567996}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Execute Package Task 1"
+      DTS:ObjectName="EPT__READ_PROFILES_FILES"
       DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -57,10 +57,10 @@
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{6C3E1B45-1ACE-4548-A229-AE85C8915F6A}"
-      DTS:From="Package\Execute Package Task"
+      DTS:From="Package\EPT__CREATE_PROFILES"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
-      DTS:To="Package\Execute Package Task 1" />
+      DTS:To="Package\EPT__READ_PROFILES_FILES" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -75,22 +75,22 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="183,42"
-          Id="Package\Execute Package Task"
+          Size="199,42"
+          Id="Package\EPT__CREATE_PROFILES"
           TopLeft="586,156" />
         <NodeLayout
-          Size="192,42"
-          Id="Package\Execute Package Task 1"
+          Size="220,42"
+          Id="Package\EPT__READ_PROFILES_FILES"
           TopLeft="638,290" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="677.5,198">
+          TopLeft="685.5,198">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="56.5,92"
+              EndConnector="62.5,92"
               Start="0,0"
-              End="56.5,84.5">
+              End="62.5,84.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -101,13 +101,13 @@
                     Point2="0,46"
                     Point3="4,46" />
                   <mssgle:LineSegment
-                    End="52.5,46" />
+                    End="58.5,46" />
                   <mssgle:CubicBezierSegment
-                    Point1="52.5,46"
-                    Point2="56.5,46"
-                    Point3="56.5,50" />
+                    Point1="58.5,46"
+                    Point2="62.5,46"
+                    Point3="62.5,50" />
                   <mssgle:LineSegment
-                    End="56.5,84.5" />
+                    End="62.5,84.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
