@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIS_DataVerFreamwork</Name>
-    <LastWriteTime>2017-06-07T16:49:12.1975949Z</LastWriteTime>
+    <LastWriteTime>2017-06-10T11:37:52.4641841Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,12 +13,17 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>CheckDataTypes_DIMScopy.dtsx</Name>
-      <LastWriteTime>2017-06-07T16:48:31.209078Z</LastWriteTime>
+      <LastWriteTime>2017-06-10T11:41:34.0280849Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>LoadData.dtsx</Name>
-      <LastWriteTime>2017-06-09T22:50:48.7936644Z</LastWriteTime>
+      <LastWriteTime>2017-06-10T12:01:13.8468022Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Master.dtsx</Name>
+      <LastWriteTime>2017-06-10T12:02:35.2610098Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
