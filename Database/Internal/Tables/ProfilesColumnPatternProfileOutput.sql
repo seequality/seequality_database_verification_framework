@@ -17,6 +17,9 @@
     [TableSchema]                VARCHAR (255) NULL,
     [TableName]                  VARCHAR (255) NULL,
     [TopRegexPatternsRegexText]  VARCHAR (255) NULL,
-    [TopRegexPatternsFrequency]  INT           NULL
+    [TopRegexPatternsFrequency]  INT           NULL,
+    [ExecutionID]                INT           NULL
 );
+
+
 

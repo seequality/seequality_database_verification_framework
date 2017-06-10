@@ -5,6 +5,9 @@
     [Schema]                 VARCHAR (255) NULL,
     [Table]                  VARCHAR (255) NULL,
     [FrequentValueThreshold] VARCHAR (255) NULL,
-    [Option]                 VARCHAR (255) NULL
+    [Option]                 VARCHAR (255) NULL,
+    [ExecutionID]            INT           NULL
 );
+
+
 

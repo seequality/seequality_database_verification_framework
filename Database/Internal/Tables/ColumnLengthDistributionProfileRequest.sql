@@ -5,6 +5,9 @@
     [IgnoreLeadingSpace]  BIT           NULL,
     [ID]                  VARCHAR (255) NULL,
     [DataSourceID]        VARCHAR (255) NULL,
-    [ColumnIsWildCard]    BIT           NULL
+    [ColumnIsWildCard]    BIT           NULL,
+    [ExecutionID]         INT           NULL
 );
+
+
 

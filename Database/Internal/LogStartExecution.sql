@@ -1,9 +1,11 @@
-﻿CREATE PROCEDURE [Internal].[LogStartExecution]
-	@ExecutionID UNIQUEIDENTIFIER,
-	@ExecutionTime DATETIME,
+﻿
+CREATE PROCEDURE [Internal].[LogStartExecution]
 	@ServerExecutionID BIGINT = NULL
 AS
 BEGIN
-	INSERT INTO Internal.ExecutionLog (ExecutionID, ExecutionTime, ServerExecutionID) VALUES (@ExecutionID, @ExecutionTime, @ServerExecutionID);
+	INSERT INTO Internal.ExecutionLog 
+	(ExecutionTime, ServerExecutionID)
+	OUTPUT INSERTED.ExecutionID
+	VALUES (GETDATE(), @ServerExecutionID);
 END
 

@@ -18,6 +18,9 @@
     [TableSchema]                NVARCHAR (255) NULL,
     [TableName]                  NVARCHAR (255) NULL,
     [ValueDistributionValue]     NVARCHAR (255) NULL,
-    [ValueDistributionCount]     INT            NULL
+    [ValueDistributionCount]     INT            NULL,
+    [ExecutionID]                INT            NULL
 );
+
+
 

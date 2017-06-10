@@ -10,6 +10,9 @@
     [PercentageDataCoverageDesired] VARCHAR (255) NULL,
     [Symbols]                       VARCHAR (255) NULL,
     [TagDataSourceId]               VARCHAR (255) NULL,
-    [TagTableName]                  VARCHAR (255) NULL
+    [TagTableName]                  VARCHAR (255) NULL,
+    [ExecutionID]                   INT           NULL
 );
+
+
 

@@ -21,6 +21,9 @@
     [TableSchema]                VARCHAR (255) NULL,
     [TableName]                  VARCHAR (255) NULL,
     [LengthDistributionLength]   INT           NULL,
-    [LengthDistributionCount]    INT           NULL
+    [LengthDistributionCount]    INT           NULL,
+    [ExecutionID]                INT           NULL
 );
+
+
 

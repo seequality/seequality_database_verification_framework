@@ -66,7 +66,6 @@
     <Build Include="Security\Internal.sql" />
     <Build Include="Internal\LogStartExecution.sql" />
     <Build Include="Internal\Tables\ProfilesColumnPatternProfileOutput.sql" />
-    <Build Include="Internal\Tables\FileLog.sql" />
     <Build Include="Internal\Tables\DataSources.sql" />
     <Build Include="Internal\Tables\ColumnValueDistributionProfileRequest.sql" />
     <Build Include="Internal\Tables\ColumnValueDistributionProfileOutput.sql" />
@@ -77,6 +76,8 @@
     <Build Include="Internal\Tables\ColumnNullRatioProfileOutput.sql" />
     <Build Include="Internal\Tables\ColumnLengthDistributionProfileRequest.sql" />
     <Build Include="Internal\Tables\ColumnLengthDistributionProfileOutput.sql" />
+    <Build Include="Internal\Tables\FileLog.sql" />
+    <Build Include="Internal\Tables\ExecutionLog.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />

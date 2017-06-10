@@ -21,6 +21,9 @@
     [MeanSpecified]              BIT            NULL,
     [MinValue]                   NVARCHAR (255) NULL,
     [StdDev]                     NUMERIC (18)   NULL,
-    [StdDevSpecified]            BIT            NULL
+    [StdDevSpecified]            BIT            NULL,
+    [ExecutionID]                INT            NULL
 );
+
+
 
