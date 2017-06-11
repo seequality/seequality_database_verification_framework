@@ -3,26 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_DataVerFreamwork", "SSIS_DataVerFreamwork\SSIS_DataVerFreamwork.dtproj", "{BB18C957-5170-46D0-852D-B754BE1106E1}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_DataVerificationFreamwork", "SSIS_DataVerFreamwork\SSIS_DataVerificationFreamwork.dtproj", "{BB18C957-5170-46D0-852D-B754BE1106E1}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{822665CF-6B0C-451F-B904-153A6F265F72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherFiles", "OtherFiles", "{6AFB538F-8728-428A-A1DA-149EAA3DB449}"
 	ProjectSection(SolutionItems) = preProject
-		DataVerificationScripts.sql = DataVerificationScripts.sql
-		ExecutionVerificationScripts.sql = ExecutionVerificationScripts.sql
-		TruncateAllTables.sql = TruncateAllTables.sql
+		OtherFIles\DataVerificationScripts.sql = OtherFIles\DataVerificationScripts.sql
+		OtherFIles\ExecutionVerificationScripts.sql = OtherFIles\ExecutionVerificationScripts.sql
+		OtherFIles\GenerateConfigTable.sql = OtherFIles\GenerateConfigTable.sql
+		OtherFIles\ideas.txt = OtherFIles\ideas.txt
+		OtherFIles\TestCases.txt = OtherFIles\TestCases.txt
+		OtherFIles\TruncateAllTables.sql = OtherFIles\TruncateAllTables.sql
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{8F4B16B4-F888-4A27-8A03-AE41FF4F8F97}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_DataVerificationFreamwork", "SSRS_DataVerificationFreamwork\SSRS_DataVerificationFreamwork.rptproj", "{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
 		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BB18C957-5170-46D0-852D-B754BE1106E1}.Debug|Any CPU.ActiveCfg = Development
 		{BB18C957-5170-46D0-852D-B754BE1106E1}.Debug|Any CPU.Build.0 = Development
+		{BB18C957-5170-46D0-852D-B754BE1106E1}.DebugLocal|Any CPU.ActiveCfg = Development
+		{BB18C957-5170-46D0-852D-B754BE1106E1}.DebugLocal|Any CPU.Build.0 = Development
 		{BB18C957-5170-46D0-852D-B754BE1106E1}.Development|Any CPU.ActiveCfg = Development
 		{BB18C957-5170-46D0-852D-B754BE1106E1}.Development|Any CPU.Build.0 = Development
 		{BB18C957-5170-46D0-852D-B754BE1106E1}.Release|Any CPU.ActiveCfg = Development
@@ -30,12 +40,25 @@ Global
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{822665CF-6B0C-451F-B904-153A6F265F72}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{822665CF-6B0C-451F-B904-153A6F265F72}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{822665CF-6B0C-451F-B904-153A6F265F72}.DebugLocal|Any CPU.Deploy.0 = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Development|Any CPU.Deploy.0 = Debug|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{822665CF-6B0C-451F-B904-153A6F265F72}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Debug|Any CPU.ActiveCfg = Debug
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Debug|Any CPU.Build.0 = Debug
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Debug|Any CPU.Deploy.0 = Debug
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Development|Any CPU.ActiveCfg = DebugLocal
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Development|Any CPU.Build.0 = DebugLocal
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Release|Any CPU.ActiveCfg = Release
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Release|Any CPU.Build.0 = Release
+		{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

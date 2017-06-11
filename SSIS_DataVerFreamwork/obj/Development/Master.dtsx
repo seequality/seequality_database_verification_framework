@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Master"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{792EB40A-017C-4549-8C61-94FB3F9740B4}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{20FE7BAD-11D8-476E-815A-01F9306D32F5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -30,7 +30,7 @@
       <DTS:ObjectData>
         <ExecutePackageTask>
           <UseProjectReference>True</UseProjectReference>
-          <PackageName>CheckDataTypes_DIMScopy.dtsx</PackageName>
+          <PackageName>CheckDataTypes.dtsx</PackageName>
         </ExecutePackageTask>
       </DTS:ObjectData>
     </DTS:Executable>
