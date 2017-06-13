@@ -1011,7 +1011,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID10_NullCount.Value)</Value>
+                                  <Value>=Fields!ID10_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID10_NullCount.Value/Fields!ID10_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1047,7 +1047,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID9_NullCount.Value)</Value>
+                                  <Value>=Fields!ID9_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID9_NullCount.Value/Fields!ID9_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1084,7 +1084,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID8_NullCount.Value)</Value>
+                                  <Value>=Fields!ID8_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID8_NullCount.Value/Fields!ID8_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1121,7 +1121,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID7_NullCount.Value)</Value>
+                                  <Value>=Fields!ID7_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID7_NullCount.Value/Fields!ID7_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1158,7 +1158,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID6_NullCount.Value)</Value>
+                                  <Value>=Fields!ID6_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID6_NullCount.Value/Fields!ID6_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1196,7 +1196,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID5_NullCount.Value)</Value>
+                                  <Value>=Fields!ID5_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID5_NullCount.Value/Fields!ID5_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1234,7 +1234,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID4_NullCount.Value)</Value>
+                                  <Value>=Fields!ID4_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID4_NullCount.Value/Fields!ID4_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1272,7 +1272,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID3_NullCount.Value)</Value>
+                                  <Value>=Fields!ID3_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID3_NullCount.Value/Fields!ID3_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1310,7 +1310,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID2_NullCount.Value)</Value>
+                                  <Value>=Fields!ID2_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID2_NullCount.Value/Fields!ID2_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
@@ -1348,7 +1348,7 @@ WHERE  ColumnName = 'AddressLine2'
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!ID1_NullCount.Value)</Value>
+                                  <Value>=Fields!ID1_NullCount.Value &amp; Environment.NewLine &amp; Format(Fields!ID1_NullCount.Value/Fields!ID1_RowCount.Value, "0.00%")</Value>
                                   <Style>
                                     <FontFamily>Segoe UI Light</FontFamily>
                                     <FontSize>12pt</FontSize>
