@@ -61,6 +61,8 @@
     <Folder Include="Internal\" />
     <Folder Include="Internal\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Reporting\" />
+    <Folder Include="Reporting\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Internal.sql" />
@@ -78,6 +80,8 @@
     <Build Include="Internal\Tables\ColumnLengthDistributionProfileOutput.sql" />
     <Build Include="Internal\Tables\FileLog.sql" />
     <Build Include="Internal\Tables\ExecutionLog.sql" />
+    <Build Include="Reporting\Views\ColumnNullRatioProfileOutput_Last10Executions.sql" />
+    <Build Include="Security\Reporting.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />
