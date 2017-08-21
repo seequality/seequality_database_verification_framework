@@ -18,6 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherFiles", "OtherFiles", 
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{8F4B16B4-F888-4A27-8A03-AE41FF4F8F97}"
+	ProjectSection(SolutionItems) = preProject
+		Reports\ReportPowerBI_1.pbix = Reports\ReportPowerBI_1.pbix
+	EndProjectSection
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_DataVerificationFreamwork", "SSRS_DataVerificationFreamwork\SSRS_DataVerificationFreamwork.rptproj", "{4806E5EB-B288-4FA5-A9CC-36DD7F4B57E2}"
 EndProject
