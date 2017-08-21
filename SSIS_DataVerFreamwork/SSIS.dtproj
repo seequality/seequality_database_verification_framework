@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{82603fea-8706-4f8a-a1cf-9a13e35ecad4}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">SSIS_DataVerificationFreamwork</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">SSIS</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MT-LPT-0334</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg97dGaKoeUOFfYrtV/XEgwAAAAACAAAAAAADZgAAwAAAABAAAABT504UeLuYB81HN2cs/51FAAAAAASAAACgAAAAEAAAAD/S6YHdesgIYYShY11hvQeIAAAAgaHGXd12DL2loIVCAHKaffMGyDF/Sdpq+Mrl3WLeRDv0RP6yGR2VO02h0ySlKQQKjhGqc/JnPp6ALHk1KZnkmabVrIr6ZMhR22kTqNeJnorSxZ99z8mSVLk6oZFhAnNIpnEXJU1sNMp/YTHc2tHlWofVRs97oE8oGY93B/0aYg/TpwhPSQRLnxQAAACC3LXxT59jWW690lBiGHZSe9MtKA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg97dGaKoeUOFfYrtV/XEgwAAAAACAAAAAAADZgAAwAAAABAAAADmgQRdYB0Qa9XkTtMoFD9YAAAAAASAAACgAAAAEAAAAPjK3wapRJd9NWdmwl2axAaIAAAAiV+lUrLtIDkLpBYgrOrSBPdSRKwTW4LjkkxXAeWLLlOHH8lrlpLrkD7an6+CWXK/Yzz/QJQWNjk29FbL9H9syoWA2Q+VGsTg6gQbjWjcyq4Dz2RtwrgaGU9cItAuJCkgYNtcaJkBIUYrM3PKOCOMdZRVpYZfrL2+yEbZPsWTT5ZDtvfRWqPIYhQAAADoj/GXVnVchugmjZ45WTmegWkQFQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
