@@ -1,0 +1,10 @@
+C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.dacpac
+C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.dll
+C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\bin\Debug\Database.pdb
+C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\Database.dll
+C:\SLDR\Projects\SSIS_DataVerificationFreamwork\Database\obj\Debug\Database.pdb
+C:\SLDR\Projects\DatabaseVerificationFramework\Database\bin\Debug\Database.dacpac
+C:\SLDR\Projects\DatabaseVerificationFramework\Database\bin\Debug\Database.dll
+C:\SLDR\Projects\DatabaseVerificationFramework\Database\bin\Debug\Database.pdb
+C:\SLDR\Projects\DatabaseVerificationFramework\Database\obj\Debug\Database.dll
+C:\SLDR\Projects\DatabaseVerificationFramework\Database\obj\Debug\Database.pdb
